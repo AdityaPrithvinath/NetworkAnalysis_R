@@ -1,6 +1,5 @@
-# Ali Tafti
-# Optional Advanced Lab 2: SAP Community Network
-#Read in the hs0 data over the internet using the read.table() function.
+
+
 getwd()
 # Save the data file to a location on your hard drive and specify the path here (Windows systems use forward slashes)
 dir_path <-"C:\\Users\\adity\\OneDrive\\Documents\\UIC\\SocialMedi&Network Analysis\\Adv Lab 2"
