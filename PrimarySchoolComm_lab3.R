@@ -78,7 +78,7 @@ community.significance.test(g_primschool, v_comp4)
 community.significance.test(g_primschool, v_comp5)
 community.significance.test(g_primschool, v_comp6)
 community.significance.test(g_primschool, v_comp7)
-# Students will produce similar plots for the walktrap, spinglass, and label propagation algorithms for community detection
+
 plot(school_comm_fast,g_primschool, vertex.label= NA, vertex.size=2)
 dendPlot(school_comm_fast)
 #Diiferent Community Algorithms
@@ -118,11 +118,9 @@ sg.member <- membership(sg)
 table(sg.member,stud.class,useNA = c("no"))
 plot(sg,g_primschool,vertex.label= NA, vertex.size=2)
 
-# In the igraph help, online documentation or KC book, students will find the function calls for the walktrap, spinglass, and label propagation algorithms 
-# Why are the benefits and drawbacks of the Girvan-Newman algorithm for community detection? Hint: try it in igraph
+
 help(n)
-# Consider students in first grade and 5th grade. To what extent does community structure indicate that students segregate by gender in these two grades?
-# Use the Fast Greedy algorithm for analysis.
+
 v_grade1students<-V(g_primschool)[V(g_primschool)$classname=="1B" | V(g_primschool)$classname=="1A"]
 v_grade5students<-V(g_primschool)[V(g_primschool)$classname=="5B" | V(g_primschool)$classname=="5A"]
 
