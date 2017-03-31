@@ -1,5 +1,4 @@
 getwd()
-# Save the data file to a location on your hard drive and specify the path here (Windows systems use forward slashes)
 dir_path <-"C:\\Users\\adity\\OneDrive\\Documents\\UIC\\SocialMedi&Network Analysis\\Adv Lab5"
 setwd(dir_path)
 library(igraph)
