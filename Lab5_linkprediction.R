@@ -1,4 +1,4 @@
-# SAND with R, chapter7.tex
+
 
 # CHUNK 1
 library(sand)
@@ -60,7 +60,7 @@ summary(g.regDB)
 plot(g.regDB, vertex.size=3, vertex.label=NA)
 
 
-# Note the code of CHUNK 8 THROUGH CHUNK 13 uses the full correlation matrix to predict edges in the network
+
 # CHUNK 8
 mycorr <- cor(Ecoli.expr)
 
@@ -99,7 +99,7 @@ library(fdrtool)
 mycorr.vec <- mycorr[upper.tri(mycorr)]
 fdr <- fdrtool(mycorr.vec, statistic="correlation")
 
-# Note the code of CHUNK 16 through CHUNK 19 uses partial correlations to predict edges
+
 # CHUNK 16
 pcorr.pvals <- matrix(0, dim(mycorr)[1], 
     dim(mycorr)[2])
